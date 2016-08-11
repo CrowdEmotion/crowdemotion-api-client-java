@@ -36,7 +36,7 @@ import java.util.List;
 /**
  * Timeseries
  */
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-07-25T14:53:50.872+01:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-11T15:53:16.377+01:00")
 public class Timeseries   {
   @SerializedName("responseId")
   private Integer responseId = null;
@@ -60,7 +60,7 @@ public class Timeseries   {
   private String customMessage = null;
 
   @SerializedName("data")
-  private List<Integer> data = new ArrayList<Integer>();
+  private List<Float> data = new ArrayList<Float>();
 
   public Timeseries responseId(Integer responseId) {
     this.responseId = responseId;
@@ -188,7 +188,7 @@ public class Timeseries   {
     this.customMessage = customMessage;
   }
 
-  public Timeseries data(List<Integer> data) {
+  public Timeseries data(List<Float> data) {
     this.data = data;
     return this;
   }
@@ -198,11 +198,11 @@ public class Timeseries   {
    * @return data
   **/
   @ApiModelProperty(example = "null", required = true, value = "")
-  public List<Integer> getData() {
+  public List<Float> getData() {
     return data;
   }
 
-  public void setData(List<Integer> data) {
+  public void setData(List<Float> data) {
     this.data = data;
   }
 

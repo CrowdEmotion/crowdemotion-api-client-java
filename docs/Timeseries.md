@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **endIndex** | **Integer** |  | 
 **stepSize** | **Integer** |  | 
 **customMessage** | **String** |  | 
-**data** | **List&lt;Integer&gt;** |  | 
+**data** | **List&lt;Float&gt;** |  | 
 
 
 

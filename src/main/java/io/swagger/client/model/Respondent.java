@@ -35,7 +35,7 @@ import org.joda.time.DateTime;
 /**
  * Respondent
  */
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-07-25T14:53:50.872+01:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-08-11T15:53:16.377+01:00")
 public class Respondent   {
   @SerializedName("id")
   private String id = null;
